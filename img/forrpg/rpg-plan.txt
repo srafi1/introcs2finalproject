@@ -1,0 +1,7 @@
+For RPG environment:
+20x12 tiles in canvas with each tile being 40px
+-9x5 or 8x5 for each section
+-grass section on top-left
+-water section on top-right
+-desert section on bottom-left
+-idk section on bottom-right
