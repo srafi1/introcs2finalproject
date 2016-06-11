@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>General Info</title>
+<style type=text/css>
+div {
+padding: 5px;
+width: 90%;
+}
+body {
+font-family: Arial;
+font-size: 150%;
+}
+</style>
+</head>
+<body background=img/pokeworld.png>
+<center>
+<a href=index.html><img src=img/logo.png width=600px></a>
+<div id=content style="background-color:#bbbbbb">
+<h1>Information about Pok&eacute;mon</h1>
+<div id=pokemon style="background-color:#ffaaaa">
+<b>Basic Info</b><br>In the world of Pok&eacute;mon, animals (and some plants) are replaced by creatures called Pok&eacute;mon. Pok&eacute;mon live in the wild or alongside people. People can capture them and store them within pok&eacute;balls to carry them around and interact with them in any way they please. The most common use of Pok&eacute;mon is to use them in battle against each other where two or more of them fight each other until one faints (this is not as inhumane as it sounds) more on this later.
+</div>
+<div id=types style="background-color:#aaffaa">
+<b>Types</b><br>Pok&eacute;mon are categorized based on what type they are. Some Pok&eacute;mon have a sort of elemenal type such as fire, water, or electricity, while others have simpler types such as bug, flying, or fighting. Pok&eacute;mon can have up to two different types (but most only have one) while the first is the primary type. A Pok&eacute;mon's type will largely be based on its lifestyle and battling style.
+</div>
+<div id=battle style="background-color:#aaaaff">
+<b>Pok&eacute;mon Battles</b><br>Pok&eacute;mon can figh each other using different moves that are basically manipulations of their types. They can use these moves (most of which are harmful) on other Pok&eacute;mon to a certain cap known as pok&eacute;power (PP). Each move has a certain amount of PP, normally around 20, power to determine its strengh, accuracy to determine its probability of hitting a target, and type to determine its effectivity on other Pok&eacute;mon. This is where different types have a larger role. A type can either be weak to another type, strong to another type, or neutral. Below is a table of type effectiveness.
+</div>
+<img src=img/typeeffectivity.png width=60% style="padding:10px">
+</div>
+</center>
+</body>
+</html>

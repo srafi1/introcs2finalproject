@@ -1,0 +1,5 @@
+Pokedex Inputs:
+Directly to pokemon (name or dex#)
+List by type
+List by stat
+List all by dex

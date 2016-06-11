@@ -1,0 +1,3 @@
+Explore:
+Use a canvas and some javascript to draw where needed
+Python file will have where to draw

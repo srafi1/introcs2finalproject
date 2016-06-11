@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Pok&eacute;dex</title>
+<style type=text/css>
+div {
+width: 90%;
+padding: 5px;
+}
+body {
+font-family: Arial;
+font-size: 150%;
+}
+td {
+text-align: center;
+border: 2px solid black;
+}
+</style>
+</head>
+<body background=img/pokeworld.png>
+<center>
+<a href=index.html><img src=img/logo.png width=600px></a><br>
+<div id=content style="background-color:#bbbbff">
+<form method=get action=cgi-bin/pokedex.py>
+<h1>Pok&eacute;dex</h1>
+<table border=1px style="border-collapse:collapse" width=60%>
+<tr>
+<td>Pok&eacute;mon name or dex #</td>
+<td><input type=text name=name_dex></input>
+<input type=submit></input></td>
+</tr>
+</form>
+<form method=get action=cgi-bin/pokedex.py>
+<tr>
+<td>List by type</td>
+<td>
+<a href=cgi-bin/pokedex.py?type=normal>
+<img src=img/normal.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=fighting>
+<img src=img/fighting.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=flying>
+<img src=img/flying.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=poison>
+<img src=img/poison.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=ground>
+<img src=img/ground.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=rock>
+<img src=img/rock.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=bug>
+<img src=img/bug.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=ghost>
+<img src=img/ghost.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=steel>
+<img src=img/steel.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=fire>
+<img src=img/fire.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=water>
+<img src=img/water.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=grass>
+<img src=img/grass.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=electric>
+<img src=img/electric.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=psychic>
+<img src=img/psychic.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=ice>
+<img src=img/ice.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=dragon>
+<img src=img/dragon.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=dark>
+<img src=img/dark.png height=25px> </a>
+<a href=cgi-bin/pokedex.py?type=fairy>
+<img src=img/fairy.png height=25px> </a>
+</td>
+</tr>
+<tr>
+<td>List by stat</td>
+<td>
+<input type=radio name=stat value=hp checked>
+<img src=img/hp.gif height=25px> </input>
+<input type=radio name=stat value=attack>
+<img src=img/attack.gif height=25px> </input>
+<input type=radio name=stat value=defense>
+<img src=img/defense.gif height=25px> </input>
+<input type=radio name=stat value=spattack>
+<img src=img/spattack.gif height=25px> </input>
+<input type=radio name=stat value=spdefense>
+<img src=img/spdefense.gif height=25px> </input>
+<input type=radio name=stat value=speed>
+<img src=img/speed.gif height=25px> </input> 
+<br>
+Sort by: <input type=radio name=order value=top checked>
+Highest to Lowest </input>
+<input type=radio name=order value=bottom>
+Lowest to Highest </input>
+<br><input type=submit></input>
+</td>
+</tr>
+<tr>
+<td>List all Pok&eacute;mon</td>
+<td><input type=submit name=all value="Gotta catch 'em all"></input>
+</tr>
+</table>
+</form>
+</div>
+</center>
+</body>
+</html>

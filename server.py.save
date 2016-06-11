@@ -1,0 +1,1 @@
+import os import BaseHTTPServer, CGIHTTPServer serverAddr = ("", 80) os.chdir("/myTest") serv = BaseHTTPServer.HTTPServer( \ serverAddr, CGIHTTPServer.CGIHTTPRequestHandler) serv.serve_forever()
